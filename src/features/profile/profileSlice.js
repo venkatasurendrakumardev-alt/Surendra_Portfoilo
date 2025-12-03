@@ -24,6 +24,7 @@ const initialState = {
   projects: [
     {
       id: 'p-klm',
+      category: 'web',
       title: 'KLM Air France — Services Portal (TCS)',
       desc:
         'Built responsive, accessible UI for KLM Airlines Services Portal using ReactJS, Redux and Material UI. Implemented component-based architecture, API integration, performance optimizations (lazy loading, code-splitting) and worked in Agile sprints.',
@@ -33,6 +34,7 @@ const initialState = {
     },
     {
       id: 'p-sonic',
+      category: 'web',
       title: 'Sonic Healthcare Web App (TCS)',
       desc:
         'Implemented front-end features for Sonic Healthcare using React, hooks, Material UI and responsive design. Converted wireframes to high-quality UI, integrated services and followed best practices for maintainability and testing.',
